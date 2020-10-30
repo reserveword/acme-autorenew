@@ -1,7 +1,7 @@
-$ACME_DATA=$pwd/.acme.sh
+$ACME_DATA=$PWD/.acme.sh
 export LE_WORKING_DIR=$ACME_DATA
 
-if [ -z $SECRET_FILES ]; then
+if [ -z "$SECRET_FILES" ]; then
     source $SECRET_FILES;
 else
     echo "NO SECRET_FILES FOUND, EXITING"
