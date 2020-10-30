@@ -12,6 +12,8 @@ jobs:
     name: refresh
     steps:
       - uses: actions/checkout@v2.3.3
+        with:
+          submodules: 'true'
       - name: Auto Renew
         env:
           SECRET_FILES: ${{ secrets.SECRET_FILES }}
