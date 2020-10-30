@@ -13,5 +13,5 @@ jobs:
     steps:
       - name: Auto Renew
         env:
-          SECRET_FILES: ${{ secret.SECRET_FILES }}
+          SECRET_FILES: ${{ secrets.SECRET_FILES }}
         run: ./acme-autorenew.sh
