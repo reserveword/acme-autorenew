@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     name: refresh
     steps:
-      - uses: actions/checkout@latest
+      - uses: actions/checkout@v2.3.3
       - name: Auto Renew
         env:
           SECRET_FILES: ${{ secrets.SECRET_FILES }}
