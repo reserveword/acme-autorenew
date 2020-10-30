@@ -14,4 +14,4 @@ jobs:
       - name: Auto Renew
         env:
           SECRET_FILES: ${{ secrets.SECRET_FILES }}
-        run: pwd; echo $PWD; realpath .; ls ..; echo qqqq; ls ../..; acme-autorenew.sh
+        run: pwd; echo $PWD; realpath .; ls -lah .;echo ------; ls -lah ..; echo --------; ls -lah ../..; acme-autorenew.sh
