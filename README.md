@@ -1,6 +1,11 @@
 # ACME AutoRenew
 
+## 注意：有未经证实的消息称 Github 禁止使用 Actions 进行签到类行为，建议各位慎重选择是否使用 Github Actions 更新证书。
+
 - 使用 Github Actions 自动更新证书有效期
+- 也可以使用 Heroku 托管来更新证书
+  - 由于 Heroku 托管的运行方式与 Github Actions 类似，可以迁移到 Heroku 来运行
+  - 参见[docker-freenom-automatic-renewal](https://github.com/reserveword/docker-freenom-automatic-renewal)，其中引用了该项目
 - 基于 [acme.sh](https://github.com/acmesh-official/acme.sh)
 - 本项目不能自动申请证书，具体操作看[使用方法](#使用方法)一节
 - 本项目需要使用者了解基本的 git 操作，或者了解基本的搜索引擎使用
