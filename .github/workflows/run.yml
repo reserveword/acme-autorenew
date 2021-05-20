@@ -1,11 +1,11 @@
 name: refresh
 
 on:
-  push:
-    branches:
-      - master
-  schedule:
-    - cron: 0 0 1 * *
+  # push:
+  #   branches:
+  #     - master
+  # schedule:
+  #   - cron: 0 0 1 * *
 jobs:
   run-it:
     runs-on: ubuntu-latest
